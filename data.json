@@ -1,0 +1,21 @@
+{
+	"data": [
+		{
+			"id": "afb7390a-4e44-4703-b995-64895df0ac47",
+			"title": "Latika",
+			"price": "Wibowo",
+			"thumbnail": "0682 4073 3741",
+			"password": "JRqIIES3oOzHuKT",
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/begreative/128.jpg"
+		},
+		{
+			"id": "61590941-2f82-4a9b-945d-e54de2f62f62",
+			"title": "Ella",
+			"price": "Permata",
+			"thumbnail": "0218 1721 676",
+			"password": "WswOqIvOORMrrBh",
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/lisovsky/128.jpg"
+		}
+	],
+	"status": 200
+}

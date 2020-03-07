@@ -1,0 +1,21 @@
+$mdc-elevation-baseline-color: black
+$mdc-elevation-umbra-opacity: .2
+$mdc-elevation-penumbra-opacity: .14
+$mdc-elevation-ambient-opacity: .12
+
+$font-weights: ("regular": 400, "medium": 500, "bold": 700)
+
+$mdc-elevation-umbra-map: (  0: "0px 0px 0px 0px" )
+
+$mdc-elevation-umbra-map: map-merge($mdc-elevation-umbra-map, (1: "0px 2px 1px -1px"))
+
+@each $size, $value in $mdc-elevation-umbra-map
+  .shadow-#{$size}
+      box-shadow: $value
+
+@each $size, $value in $font-weights
+  .icon-#{$size}:before
+    display: inline-block
+    font-family: "Icon Font"
+    content: $value
+
