@@ -14,7 +14,7 @@
   "author": "“Robin <“wrobin@gmx.net”> (https://www.robinwieruch.de)",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "faker": "^4.1.0",
     "grommet": "^2.10.0",
     "grommet-icons": "^4.4.0",
